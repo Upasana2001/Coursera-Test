@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=h, initial-scale=1.0">
+    <title>Module 2</title>
+    <link rel="stylesheet" href="module2.css">
+    <style>
+    body{
+    font-family: cursive;
+    font-size: small;
+}
+.f1{
+    background-color: rgb(185, 225, 211);
+    margin: 3px;
+    border: 2px solid black;
+    padding: 2px;
+    height: 300px;
+    width: 100%;
+    border-radius: 5px;
+    overflow: auto;
+}
+.container{
+    display: flex;
+}
+h1{
+    text-align: center;
+}
+.f2{
+    background-color: beige;
+    border: 2px solid black;
+    height: 20px;
+    width: 30%;
+    text-align: center;
+    float: right;
+    font-weight: bolder;
+}
+p{
+    text-align:justify; 
+    margin-top:35px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+@media only screen and (min-width: 800px){
+    #dog{
+        display: block;
+    }
+}
+@media only screen and (min-width: 800px){
+    #cat{
+        display: block;
+    }
+}
+@media only screen and (min-width: 800px){
+    #rabbit{
+        display: block;
+    }
+}
+@media (min-width: 500px) and (max-width: 800px){
+    #cat #dog{
+        display: block;
+    }
+    #rabbit{
+        
+    }
+}
+    </style>
+</head>
+<body>
+    <h1>Our Menu</h1>
+    <div class="container">
+        <div class="f1">
+                <div class="f2" id="dog">My Dog</div>
+            <p><p>My pet dog is named as Raamu and I love him very much.found him near our house on the streets, on a rainy night and ever since that cold and scary night, he has been with us and has become an important part of my life. He is always the first one to greet me whenever I come back home from outside. </p></p>
+        </div>
+        <div class="f1">
+            <div class="f2" id="cat">My Cat</div>
+            <p>My pet cat is a Persian Cat, and her name is Fluffles. My family and I named her Fluffles because of how fluffy and soft her white fur is. Sometimes, Fluffles camouflages with the carpet in my bedroom, which is also white. Fluffles really loves to sleep on that carpet, which is why we must be cautious at home so that we don’t step on her.Fluffles is always there at home for me when I come back from school.</p>
+        </div>
+        <div class="f1">
+            <div class="f2" id="rabbit">My Rabbit</div>
+            <p>The big ears of rabbits can hear anything from far. The flickering orbs help them to safeguard themselves from the predators. Their long hind legs help them to run fast to escape from the danger. Pet rabbit does not need a big house to stay in; it just needs a comfortable space to play and jump with.Rabbits are always cutie-pies. </p>
+        </div>
+    </div>
+    
+</body>
+</html>
